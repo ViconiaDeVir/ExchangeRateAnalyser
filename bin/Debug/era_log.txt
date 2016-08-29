@@ -1,0 +1,25 @@
+Time = 2016.08.28 05:38:51
+ Message = An error occured during the proccessing the data.
+ Exception: 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at ExchangeRateAnalyser.Models.ExchangeRateAnalysisResult.ToString() in w:\Projects\Intellex\Dashboards\Emirates\ExchangeRateAnalyser\ExchangeRateAnalyser\Models\ExchangeRateAnalysisResult.cs:line 113
+   at ExchangeRateAnalyser.Program.Analyze(DateTime startDate, DateTime endDate, Decimal сapital) in w:\Projects\Intellex\Dashboards\Emirates\ExchangeRateAnalyser\ExchangeRateAnalyser\Program.cs:line 176
+
+Time = 2016.08.28 05:39:17
+ Message = An error occured during the proccessing the data.
+ Exception: 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at ExchangeRateAnalyser.Models.ExchangeRateAnalysisResult.ToString() in w:\Projects\Intellex\Dashboards\Emirates\ExchangeRateAnalyser\ExchangeRateAnalyser\Models\ExchangeRateAnalysisResult.cs:line 113
+   at ExchangeRateAnalyser.Program.Analyze(DateTime startDate, DateTime endDate, Decimal сapital) in w:\Projects\Intellex\Dashboards\Emirates\ExchangeRateAnalyser\ExchangeRateAnalyser\Program.cs:line 176
+
+Time = 2016.08.28 06:00:34
+ Message = An error occured during the proccessing the data.
+ Exception: 
+ System.ArgumentNullException: Value cannot be null.
+Parameter name: type
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at ExchangeRateAnalyser.DataAccess.DAOFactory.GetCurrencyDAO() in w:\Projects\Intellex\Dashboards\Emirates\ExchangeRateAnalyser\ExchangeRateAnalyser\DataAccess\DAOFactory.cs:line 22
+   at ExchangeRateAnalyser.Models.ExchangeRateAnalyser.PerformAnalysis() in w:\Projects\Intellex\Dashboards\Emirates\ExchangeRateAnalyser\ExchangeRateAnalyser\Models\ExchangeRateAnalyser.cs:line 66
+   at ExchangeRateAnalyser.Program.Analyze(DateTime startDate, DateTime endDate, Decimal сapital) in w:\Projects\Intellex\Dashboards\Emirates\ExchangeRateAnalyser\ExchangeRateAnalyser\Program.cs:line 161
+
